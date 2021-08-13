@@ -1,0 +1,143 @@
+
+*{
+	font-family: WorldofWater-Regular;
+	background-image: url('backimg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+@font-face {
+  font-family: "WorldofWater-Regular";
+  src: url("worldofwater.ttf");
+}
+
+h1{
+	font-size: 60px;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 1px 2px 4px #eb7500;
+	color: #11557d;
+}
+
+h3
+{
+	text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+	color: #11557d;
+}
+
+main
+{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url('blue.jpg');
+	height: 620px;
+}
+
+.flex-container 
+{
+    display: flex;		    
+}
+
+.flex-child
+{
+	flex-basis: 30%;
+	padding: 15px;
+	margin: 15px;
+	border: 5px solid #fcbf68;
+}
+
+
+#plane{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	height: 35%;
+	width: 75%;
+	border: 5px solid #11557d;
+}
+
+#car{
+	width: 75%;
+	height: 35%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border: 5px solid #11557d;
+}
+
+#parking{
+	width: 75%;
+	height: 35%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border: 5px solid #11557d;
+}
+
+button{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	height: 60px;
+	font-size: 30px;
+	border: 5px solid ivory;
+	transition: all 0.25s;
+    cursor: pointer;
+    background: #11557d;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.25s;
+  background: #11557d;
+  color: ivory;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.1s;
+  color: #16274a;
+  background: #ffb03b;
+}
+
+.button:hover span {
+  padding-right: 25px;
+  color: #16274a;
+  background: #ffb03b;
+}
+
+.button:hover{
+	border: 5px solid ivory;
+	box-shadow: 0px 0px 5px 5px #16274a;
+	background: #ffb03b;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+  color: #16274a;
+  background: #ffb03b;
+}
+
+.site{
+	text-decoration: none;
+	color: #11557d;
+}
+
+p{
+	font-size: 20px;
+	text-align: justify;
+	color: #11557d;
+}
+
